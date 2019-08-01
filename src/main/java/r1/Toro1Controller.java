@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package r1;
+package r1; 
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,7 +30,7 @@ class Toro1Controller {
 
 	@RequestMapping(method = GET, path = "/")
 	public String root() {
-		return "Spring Boot REST service running. Toronto and Sydney "
+		return "Spring Boot REST service running. Toronto and Sydney, changed "
 				+ getClass().getName();
 	}
 
